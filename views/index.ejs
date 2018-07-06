@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+　　<meta charset="utf-8">
+　　<title>Hello, world!</title>
+</head>
+<body>
+    <h1>这是EJS模板！</h1>
+    <ol>
+        <% list.forEach(item => {
+        %>
+            <li>这是循环：<%=item %></li>
+        <%
+        }); %>
+    </ol>
+</body>
+</html>
